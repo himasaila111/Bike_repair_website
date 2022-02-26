@@ -6,7 +6,7 @@
 * open the html code with live server or enter the folder path in browser
 * here we go with an Attractive Roar Bike website
 
-## To switch to "contact_us" page
-* Click on contactbutton
-* you will smootly redirect to contact page 
+## switch to "contact_us" page
+* Click on contact button
+* you will smootly redirect to another page 
 * where in that page you can get a simple CONTACT US form
