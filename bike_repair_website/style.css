@@ -1,0 +1,193 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(to right, #fc5e55, #fa4083);
+}
+
+body{
+    background-image: url('./images/image-lion-background.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+}
+
+.container{
+    width:1024px;
+    min-height:500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+header div img{
+    border-radius: 15px;
+}
+main{
+    min-height: 300px;
+    display:flex;
+    align-items: center;
+}
+
+.herobox1{
+    flex:2;
+    padding-right: 100px;
+}
+
+h1{
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size:15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.herobox2{
+    flex:1;
+}
+.cards{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 250px;
+}
+
+.cards1{
+    background-image: url('images/image-background-card1.jpg');
+    background-position: bottom;
+    width:30%;
+   
+    
+}
+.cards2{
+    background-image: url('images/image-background-card2.jpg');
+    background-position: bottom;
+    width:30%;
+}
+
+.cards3{
+    background-image: url('images/image-background-card3.jpg');
+    background-position: bottom;
+    width:30%;
+}
+
+h2{
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.cards p{
+    font-size:13px;
+    margin: 15px 10px 20px 10px;
+}
+
+i{
+    font-size:80px;
+    margin-top: 20px;
+}
+
+.cards a{
+    color:white;
+    text-decoration: none;
+}
+
+.button{
+    color:#fa4083;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Roboto Serif', sans-serif;
+    padding:10px 20px;
+    display:inline-block;
+    margin-top: 15px;
+}
+
+.button:hover,nav a:hover{
+    
+    background-color:bisque;
+    color:black;
+}
+nav a{
+    color:white;
+   font-family: 'Roboto Serif', sans-serif;
+    text-decoration: none;
+    border:1px solid white;
+    padding:10px 20px;
+    margin-left:5px;
+
+}
+
+.testimonals{
+    margin-top:50px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.tbox{
+    border:1px solid white;
+    padding:30px;
+    width:47%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+
+}
+
+.tbox p:last-of-type{
+    font-size:12px;
+    margin-left:20px;
+}
+
+.form_page{
+    display: block;
+    margin-top: 20px;
+}
+.form_page p{
+    font-family: 'Roboto Serif', sans-serif;
+}
+.wrapinside{
+    margin-bottom: 20px;
+}
+
+input[type=text],input[type=email],textarea{
+    padding:20px 10px;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline:none;
+}
+
+.label{
+    display:block;
+    margin-bottom: 10px;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+}
+
+.submit,#country{
+    padding:8px;
+    color: black;
+    background-color:white;
+    font-size:15px;
+}
+
+.submit:hover{
+    color:black;
+    background-color: bisque;
+}
